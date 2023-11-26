@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #0c023e;
 }
 .profile {
     display: flex;
@@ -16,7 +16,7 @@ body{
     transition: box-shadow 0.3s ease-in-out;
 }
 .profile:hover {
-    box-shadow: 10px 10px 5px rgb(0, 255, 128);
+    box-shadow: 10px 10px 5px rgb(24, 61, 185);
 }
 
 .profile img {
