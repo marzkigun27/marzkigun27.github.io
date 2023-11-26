@@ -11,13 +11,15 @@ app.get("/api", (req, res) => {
   res.json([
     {
       id: 1,
-      nama: "Umar",
-      kelas: "TF-47-03",
+      namaProvinsi: 'Jawa Barat',
+      namaKecamatan: 'Bandung',
+      namaDesa: 'Cibiru',
     },
     {
       id: 2,
-      nama: "Sugito",
-      kelas: "TT-42-02",
+      namaProvinsi: 'Jawa Timur',
+      namaKecamatan: 'Surabaya',
+      namaDesa: 'Sukolilo',
     },
   ]);
 });
