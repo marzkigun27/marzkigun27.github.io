@@ -1,3 +1,0 @@
-function buttonalert() {
-    alert("ASSHHHIAAPP");
-}
